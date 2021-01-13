@@ -69,8 +69,8 @@ U8X8_PIN_NONE, U8X8_PIN_NONE);
 #endif
 byte mac_addr[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED };
 IPAddress server_addr(192, 168, 100, 19);  // IP of the MySQL *server* here
-char user[] = "zeiterfassung";              // MySQL user login username
-char password[] = "zeit1";        // MySQL user login password
+char user[] = "*******";              // MySQL user login username
+char password[] = "*******";        // MySQL user login password
 EthernetClient client;
 MySQL_Connection conn((Client *) &client);
 
